@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atencion al estudiante</title>
+   
+   
+</head>
+<body>
+ 
+ <header>
+      <nav>
+          <ul>
+              <a href="{% url 'Inicio' %}">Inicio</a></li>
+              <li><a href="{% url 'Estudiantes' %}">Estudiantes</a></li>
+              <li><a href="{% url 'Entregable' %}">Entrega</a>s</li>
+              <li><a href="{% url 'Cursos' %}">Cursos</a></li>
+          </ul>
+      </nav>
+    </header>
+
+   
+
+
+  {% block main %}
+
+  {% endblock %}
+
+</body>
+</html>
+

@@ -1,0 +1,9 @@
+/* Estilos generales */
+*::after,
+*::before,
+
+
+.h1 {
+  text-align: center;
+}
+
