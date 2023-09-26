@@ -56,7 +56,7 @@ ROOT_URLCONF = 'AppCoder.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["C:/Python/AppCoder-Py/AppCoderpy/plantilla/"],
+        'DIRS': ["C:/Python/AppCoder-Py/Proyecto/AppCoderpy/plantilla/"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
